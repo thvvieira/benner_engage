@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VAIO-THIAGO</Machine>
+    <WindowsUser>Thiago</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\MyFriends.exe">
+      <PackagePath>MyFriends.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\MyFriends.pdb">
+      <PackagePath>MyFriends.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.SimpleSerializer.Win8.dll">
+      <PackagePath>GalaSoft.SimpleSerializer.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.MvvmLight.Extras.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.MvvmLight.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Win8.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\Microsoft.Practices.ServiceLocation.xml">
+      <PackagePath>Microsoft.Practices.ServiceLocation.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.SimpleSerializer.Win8.pdb">
+      <PackagePath>GalaSoft.SimpleSerializer.Win8.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\FriendView.xaml">
+      <PackagePath>FriendView.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\Skins\MainSkin.xaml">
+      <PackagePath>Skins\MainSkin.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

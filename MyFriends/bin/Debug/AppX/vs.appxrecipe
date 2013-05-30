@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VAIO-THIAGO</Machine>
+    <WindowsUser>Thiago</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>219E4B99383F269F0C2FE8BA77D6874705208AF04B14EC1F59BCD4FC47F33C47</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>012f1c67-1cef-4e44-9ac7-f7a54e24a445_1.0.0.0_neutral__8785rajwqkham</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>012f1c67-1cef-4e44-9ac7-f7a54e24a445_8785rajwqkham!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>012f1c67-1cef-4e44-9ac7-f7a54e24a445</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Laurent</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-28T23:37:00.361</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\MyFriends.exe">
+      <PackagePath>MyFriends.exe</PackagePath>
+      <Modified>2013-05-28T23:36:58.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\MyFriends.pdb">
+      <PackagePath>MyFriends.pdb</PackagePath>
+      <Modified>2013-05-28T23:36:58.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+      <Modified>2012-07-09T02:50:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+      <Modified>2012-07-09T02:50:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.SimpleSerializer.Win8.dll">
+      <PackagePath>GalaSoft.SimpleSerializer.Win8.dll</PackagePath>
+      <Modified>2012-08-01T13:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2012-06-04T02:31:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.MvvmLight.Extras.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.xml</PackagePath>
+      <Modified>2012-06-19T23:46:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.MvvmLight.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Win8.xml</PackagePath>
+      <Modified>2012-07-09T02:50:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\Microsoft.Practices.ServiceLocation.xml">
+      <PackagePath>Microsoft.Practices.ServiceLocation.xml</PackagePath>
+      <Modified>2012-06-03T22:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\References\GalaSoft.SimpleSerializer.Win8.pdb">
+      <PackagePath>GalaSoft.SimpleSerializer.Win8.pdb</PackagePath>
+      <Modified>2012-08-01T13:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-08-01T00:52:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-08-29T23:36:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-08-01T00:52:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-08-01T00:52:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-08-01T00:52:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-08-29T23:47:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\FriendView.xaml">
+      <PackagePath>FriendView.xaml</PackagePath>
+      <Modified>2012-08-03T00:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-08-29T23:51:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\Skins\MainSkin.xaml">
+      <PackagePath>Skins\MainSkin.xaml</PackagePath>
+      <Modified>2012-08-01T00:52:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Downloads\Code_BugnionMVVM1012win\MyFriends\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-05-28T23:36:59.895</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
