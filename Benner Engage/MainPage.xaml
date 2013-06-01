@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="Benner_Engage.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Benner_Engage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="foto" HorizontalAlignment="Left" Height="181" Margin="56,191,0,0" VerticalAlignment="Top" Width="149"/>
+        <TextBlock x:Name="txtNome" HorizontalAlignment="Left" Margin="56,54,0,0" TextWrapping="Wrap" Text="Nome" VerticalAlignment="Top" FontSize="72"/>
+        <TextBlock HorizontalAlignment="Left" Margin="250,191,0,0" TextWrapping="Wrap" Text="Data de admissão" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="dtAdmissao" HorizontalAlignment="Left" Margin="397,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" Margin="231,251,0,0" TextWrapping="Wrap" Text="Data de Nascimento" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="dtNascimento" HorizontalAlignment="Left" Margin="397,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" Margin="234,311,0,0" TextWrapping="Wrap" Text="Tipo de Funcionário" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="tipoFunc" HorizontalAlignment="Left" Margin="397,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227"/>
+        <TextBlock HorizontalAlignment="Left" Margin="341,366,0,0" TextWrapping="Wrap" Text="Viaja?" VerticalAlignment="Top" FontSize="18"/>
+        <CheckBox x:Name="viaja" Content="" HorizontalAlignment="Left" Margin="392,361,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

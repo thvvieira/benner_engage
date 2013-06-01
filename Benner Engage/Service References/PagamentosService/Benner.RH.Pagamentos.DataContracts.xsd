@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Benner.RH.Pagamentos.DataContracts" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Benner.RH.Pagamentos.DataContracts" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.Common.EnterpriseServiceLibrary" />
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="PrimeiroPeriodoComSaldoFeriasRequest">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.Common.EnterpriseServiceLibrary" base="q1:Request">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Funcionario" type="xs:long" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PrimeiroPeriodoComSaldoFeriasRequest" nillable="true" type="tns:PrimeiroPeriodoComSaldoFeriasRequest" />
+  <xs:complexType name="PrimeiroPeriodoComSaldoFeriasResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.Common.EnterpriseServiceLibrary" base="q2:Response">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="PeriodoAdquiridoInicio" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PeriodoAdquiridoFim" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PeriodoConcessivoInicio" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PeriodoConcessivoFim" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DiasAfastamento" type="xs:int" />
+          <xs:element minOccurs="0" name="Handle" type="xs:long" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PrimeiroPeriodoComSaldoFeriasResponse" nillable="true" type="tns:PrimeiroPeriodoComSaldoFeriasResponse" />
+  <xs:complexType name="SimularFeriasRequest">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.Common.EnterpriseServiceLibrary" base="q3:Request">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Funcionario" type="xs:long" />
+          <xs:element minOccurs="0" name="Inicio" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DataPagamento" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CalcularFerias" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="PeriodoAbono" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="DiasFerias" type="xs:decimal" />
+          <xs:element minOccurs="0" name="DiasAbono" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="DiasFeriasAmpliadas" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Perc13Salario" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="PrevisaoDescontos" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PagarLiquido" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PagarMulta" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="EmprestimoFerias" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="DataEmprestimo" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="InicioDesconto" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Parcelas" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="PrevisaoINSSOutrasEmpresas" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="EmitirRelatorioResultado" nillable="true" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SimularFeriasRequest" nillable="true" type="tns:SimularFeriasRequest" />
+  <xs:complexType name="SimularFeriasResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.Common.EnterpriseServiceLibrary" base="q4:Response">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="FolhaFuncionario" nillable="true" type="xs:long" />
+          <xs:element minOccurs="0" name="FolhaVerbas" nillable="true" type="tns:ArrayOfFolhaVerba" />
+          <xs:element minOccurs="0" name="Inconsistencias" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="OcorrenciasCalculo" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SimularFeriasResponse" nillable="true" type="tns:SimularFeriasResponse" />
+  <xs:complexType name="ArrayOfFolhaVerba">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FolhaVerba" nillable="true" type="tns:FolhaVerba" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFolhaVerba" nillable="true" type="tns:ArrayOfFolhaVerba" />
+  <xs:complexType name="FolhaVerba">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CodigoVerba" type="xs:int" />
+      <xs:element minOccurs="0" name="Horas" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="NomeVerba" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SalarioHora" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TipoVerba" type="ser:char" />
+      <xs:element minOccurs="0" name="Valor" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FolhaVerba" nillable="true" type="tns:FolhaVerba" />
+  <xs:complexType name="SimularRescisaoRequest">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.Common.EnterpriseServiceLibrary" base="q5:Request">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Funcionario" type="xs:long" />
+          <xs:element minOccurs="0" name="DemissaoData" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CausaDemissao" type="xs:int" />
+          <xs:element minOccurs="0" name="AvisoPrevioTipo" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="AvisoPrevioInicio" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="AvisoPrevioDias" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="EmitirRelatorioResultado" nillable="true" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SimularRescisaoRequest" nillable="true" type="tns:SimularRescisaoRequest" />
+  <xs:complexType name="SimularRescisaoResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q6="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.Common.EnterpriseServiceLibrary" base="q6:Response">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="FolhaFuncionario" nillable="true" type="xs:long" />
+          <xs:element minOccurs="0" name="FolhaVerbas" nillable="true" type="tns:ArrayOfFolhaVerba" />
+          <xs:element minOccurs="0" name="Inconsistencias" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="OcorrenciasCalculo" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SimularRescisaoResponse" nillable="true" type="tns:SimularRescisaoResponse" />
+  <xs:complexType name="ObterFuncionariosRequest">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.Common.EnterpriseServiceLibrary" base="q7:Request">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Usuario" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ObterFuncionariosRequest" nillable="true" type="tns:ObterFuncionariosRequest" />
+  <xs:complexType name="ObterFuncionariosResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q8="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.Common.EnterpriseServiceLibrary" base="q8:Response">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Funcionarios" nillable="true" type="tns:ArrayOfDadosFuncionarios" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ObterFuncionariosResponse" nillable="true" type="tns:ObterFuncionariosResponse" />
+  <xs:complexType name="ArrayOfDadosFuncionarios">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DadosFuncionarios" nillable="true" type="tns:DadosFuncionarios" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDadosFuncionarios" nillable="true" type="tns:ArrayOfDadosFuncionarios" />
+  <xs:complexType name="DadosFuncionarios">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataAdmissao" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataNascimento" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Foto" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="Handle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SalarioAtual" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TipoColaborador" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TipoSanguineo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Viaja" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DadosFuncionarios" nillable="true" type="tns:DadosFuncionarios" />
+</xs:schema>

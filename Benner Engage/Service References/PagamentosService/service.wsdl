@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PagamentosService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.EnterpriseServiceLibrary" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.Common.EnterpriseServiceLibrary" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Benner.RH.Pagamentos.DataContracts" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPagamentosService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_Login_SecurityServiceFaultFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.EnterpriseServiceLibrary" name="detail" element="q1:SecurityServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_Logout_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_Logout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_Logout_SecurityServiceFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/Benner.Tecnologia.EnterpriseServiceLibrary" name="detail" element="q2:SecurityServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_PrimeiroPeriodoComSaldoFerias_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrimeiroPeriodoComSaldoFerias" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_PrimeiroPeriodoComSaldoFerias_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrimeiroPeriodoComSaldoFeriasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_SimularFerias_InputMessage">
+    <wsdl:part name="parameters" element="tns:SimularFerias" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_SimularFerias_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SimularFeriasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_SimularRescisao_InputMessage">
+    <wsdl:part name="parameters" element="tns:SimularRescisao" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_SimularRescisao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SimularRescisaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_ObterFuncionarios_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterFuncionarios" />
+  </wsdl:message>
+  <wsdl:message name="IPagamentosService_ObterFuncionarios_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterFuncionariosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPagamentosService">
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="Login" message="tns:IPagamentosService_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAuthentication/LoginResponse" message="tns:IPagamentosService_Login_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAuthentication/LoginSecurityServiceFaultFault" name="SecurityServiceFaultFault" message="tns:IPagamentosService_Login_SecurityServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <wsdl:input wsaw:Action="Logout" message="tns:IPagamentosService_Logout_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAuthentication/LogoutResponse" message="tns:IPagamentosService_Logout_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IAuthentication/LogoutSecurityServiceFaultFault" name="SecurityServiceFaultFault" message="tns:IPagamentosService_Logout_SecurityServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrimeiroPeriodoComSaldoFerias">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPagamentosService/PrimeiroPeriodoComSaldoFerias" message="tns:IPagamentosService_PrimeiroPeriodoComSaldoFerias_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPagamentosService/PrimeiroPeriodoComSaldoFeriasResponse" message="tns:IPagamentosService_PrimeiroPeriodoComSaldoFerias_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SimularFerias">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPagamentosService/SimularFerias" message="tns:IPagamentosService_SimularFerias_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPagamentosService/SimularFeriasResponse" message="tns:IPagamentosService_SimularFerias_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SimularRescisao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPagamentosService/SimularRescisao" message="tns:IPagamentosService_SimularRescisao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPagamentosService/SimularRescisaoResponse" message="tns:IPagamentosService_SimularRescisao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterFuncionarios">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPagamentosService/ObterFuncionarios" message="tns:IPagamentosService_ObterFuncionarios_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPagamentosService/ObterFuncionariosResponse" message="tns:IPagamentosService_ObterFuncionarios_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPagamentosService" type="tns:IPagamentosService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="SecurityServiceFaultFault">
+        <soap:fault use="literal" name="SecurityServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap:operation soapAction="Logout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="SecurityServiceFaultFault">
+        <soap:fault use="literal" name="SecurityServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="PrimeiroPeriodoComSaldoFerias">
+      <soap:operation soapAction="http://tempuri.org/IPagamentosService/PrimeiroPeriodoComSaldoFerias" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimularFerias">
+      <soap:operation soapAction="http://tempuri.org/IPagamentosService/SimularFerias" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimularRescisao">
+      <soap:operation soapAction="http://tempuri.org/IPagamentosService/SimularRescisao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterFuncionarios">
+      <soap:operation soapAction="http://tempuri.org/IPagamentosService/ObterFuncionarios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PagamentosService">
+    <wsdl:port name="BasicHttpBinding_IPagamentosService" binding="tns:BasicHttpBinding_IPagamentosService">
+      <soap:address location="http://testeengage/Engage/app_services/PagamentosService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

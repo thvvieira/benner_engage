@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="87148b73-6a6f-44c9-b5b3-5b9216d96466" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://testeengage.cloudapp.net/Engage/app_services/PagamentosService.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="8b411534-8ff9-4502-a31e-5181bb258b61" SourceId="1" SourceUrl="http://testeengage.cloudapp.net/Engage/app_services/PagamentosService.svc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="24c7b169-a24c-464c-ae4e-8d670fb5f565" SourceId="1" SourceUrl="http://testeengage.cloudapp.net/Engage/app_services/PagamentosService.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="d2dfbc11-ad8d-4e6d-a495-49a5d14c75d0" SourceId="1" SourceUrl="http://testeengage.cloudapp.net/Engage/app_services/PagamentosService.svc/mex" />
+    <MetadataFile FileName="Benner.Tecnologia.EnterpriseServiceLibrary.xsd" MetadataType="Schema" ID="0e96b7dc-22d7-4ce4-98d8-f328445c3703" SourceId="1" SourceUrl="http://testeengage.cloudapp.net/Engage/app_services/PagamentosService.svc/mex" />
+    <MetadataFile FileName="Benner.Tecnologia.Common.EnterpriseServiceLibrary.xsd" MetadataType="Schema" ID="ff0bb20b-d31f-4935-87c8-d8533953aac7" SourceId="1" SourceUrl="http://testeengage.cloudapp.net/Engage/app_services/PagamentosService.svc/mex" />
+    <MetadataFile FileName="Benner.RH.Pagamentos.DataContracts.xsd" MetadataType="Schema" ID="ac040e24-0931-413f-98ae-7dfb7f590662" SourceId="1" SourceUrl="http://testeengage.cloudapp.net/Engage/app_services/PagamentosService.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
