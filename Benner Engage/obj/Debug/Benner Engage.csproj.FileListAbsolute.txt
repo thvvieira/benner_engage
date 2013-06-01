@@ -1,0 +1,33 @@
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\Benner Engage.exe
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\Benner Engage.pdb
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\resources.pri
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\AppxManifest.xml
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\Benner Engage.build.appxrecipe
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\App.g.i.cs
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\App.g.cs
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\MainPage.g.i.cs
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\MainPage.g.cs
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\App.xaml
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\MainPage.xaml
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\Benner Engage.exe
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\Benner Engage.pdb
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\priconfig.xml.intermediate
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\layout.resfiles.intermediate
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\resources.resfiles.intermediate
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\pri.resfiles.intermediate
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\priconfig.xml
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\layout.resfiles
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\resources.resfiles
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\pri.resfiles
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\LanguageQualifiers.txt
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\ProjectArchitectures.txt
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\Simulacoes.g.i.cs
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\Simulacoes.g.cs
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\Simulacoes.xaml
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\ItemsPage1.g.i.cs
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\ItemsPage1.g.cs
+C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\obj\Debug\ItemsPage1.xaml

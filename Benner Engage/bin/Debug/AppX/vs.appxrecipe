@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VAIO-THIAGO</Machine>
+    <WindowsUser>Thiago</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>BCFF57D7199967961B80842D6498D90807F6CC407498305D5B164DBE2A7F74C7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>29a825b7-77f2-4d1b-be13-8818b4821f27_1.0.0.0_neutral__1wq0yrjyd48mt</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>29a825b7-77f2-4d1b-be13-8818b4821f27_1wq0yrjyd48mt!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>29a825b7-77f2-4d1b-be13-8818b4821f27</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Thiago</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-06-01T00:25:26.612</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\Benner Engage.exe">
+      <PackagePath>Benner Engage.exe</PackagePath>
+      <Modified>2013-06-01T00:25:24.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\Benner Engage.pdb">
+      <PackagePath>Benner Engage.pdb</PackagePath>
+      <Modified>2013-06-01T00:25:24.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\Assets\img-login.png">
+      <PackagePath>Assets\img-login.png</PackagePath>
+      <Modified>2013-06-01T00:14:12.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T23:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T23:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T23:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T23:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-05-31T23:35:21.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-05-31T22:34:15.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2013-05-31T23:35:22.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\ItemsPage1.xaml">
+      <PackagePath>ItemsPage1.xaml</PackagePath>
+      <Modified>2013-05-31T23:35:21.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\Simulacoes.xaml">
+      <PackagePath>Simulacoes.xaml</PackagePath>
+      <Modified>2013-05-31T22:45:12.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-06-01T00:25:09.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thiago\Source\Repos\benner_engage\Benner Engage\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-06-01T00:25:25.384</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
